@@ -1,0 +1,294 @@
+
+
+
+.bt {
+  width: 1010px;
+  height: 420px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.bt-title {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  font-weight: 700;
+  font-size: 64px;
+  color: #fff;
+}
+.ask {
+  position: absolute;
+  top: 22%;
+  left: 2%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--primary-color2);
+}
+
+.c-btm {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  bottom: 0;
+  right: 0;
+}
+.ab-circle {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  top: 0;
+  left: -18%;
+}
+.person {
+  width: 440px;
+  height: 70px;
+  position: absolute;
+  top: 35%;
+  left: -1%;
+}
+.settings {
+  width: 440px;
+  height: 70px;
+  position: absolute;
+  top: 55%;
+  left: -1%;
+}
+.diagram {
+  width: 440px;
+  height: 70px;
+  position: absolute;
+  top: 75%;
+  left: -1%;
+}
+
+form {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  width: 490px;
+  height: 30px;
+  background: none;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  transition: .5s;
+}
+
+input:focus {
+  color: var(--primary-color2);
+  outline: none;
+  border-bottom: 1px solid var(--primary-color2);
+  transition: .5s;
+}
+
+label {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+input:focus ~.l-name {
+  color: var(--primary-color2);
+}
+
+
+#messege {
+  width: 490px;
+  border: none;
+  background: none;
+  transition: 1s;
+  border-bottom: 1px solid #fff;
+  transition: .5s;
+}
+#messege:focus {
+  outline: none;
+  border-bottom: 1px solid var(--primary-color2);
+  transition: .5s;
+}
+.submit {
+  width: 100px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  color: var(--secondary-color3);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  transition: .3s;
+}
+.submit:hover {
+  color: #fff;
+  background-color: var(--secondary-color3);
+  transition: .3s;
+  border: 2px solid var(--secondary-color3);
+  cursor: pointer;
+  box-shadow: 0 0 10px #fff;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: var(--secondary-color5);
+  position: relative;
+}
+.f-footer {
+  position: absolute;
+  width: 1010px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.f-logo {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+}
+.copyright {
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  right: 0;
+  bottom: 0;
+}
+.fb-link {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  right: 80px;
+  transition: .3s;
+}
+.fb-link img {
+  transition: .3s;
+}
+.fb-link:hover img{
+  margin-top: -7px;
+  transition: .3s;
+}
+
+.prst-link {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  right: 40px;
+  transition: .3s;
+}
+.prst-link img {
+  transition: .3s;
+}
+.prst-link:hover img {
+  margin-top: -7px;
+  transition: .3s;
+}
+.twt-link img{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 0;
+  top: 0;
+  transition: .3s;
+}
+.twt-link img{
+  transition: .3s;
+}
+.twt-link:hover img {
+  margin-top: -7px;
+  transition: .3s;
+}
+.img-txt {
+  position: absolute;
+  width: 200px;
+  height: 98px;
+  left: 300px;
+}
+.f-home {
+  position: absolute;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  left: 0px;
+  bottom: 10px;
+  transition: .3s;
+  color: #fff;
+}
+.f-home:hover {
+  color: var(--primary-color2);
+  transition: .3s;
+}
+.f-home:focus {
+  bottom: 7px;
+}
+
+.f-about {
+  position: absolute;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  left: 100px;
+  bottom: 10px;
+  transition: .3s;
+  color: #fff;
+}
+.f-about:hover {
+  color: var(--primary-color2);
+  transition: .3s;
+}
+.f-about:focus {
+  bottom: 7px;
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+  #header {
+    width: 475px;
+    height: 1100px;
+  }
+  .head {
+    width: 420px;
+    height: 32px;
+  }
+  .bt {
+    width: 420px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact {
+    width: 420px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    
+  } 
+}
+
+
+
